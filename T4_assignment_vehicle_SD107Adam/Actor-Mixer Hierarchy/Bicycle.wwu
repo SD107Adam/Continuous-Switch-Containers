@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB672535-4288-4966-9DE1-F8121B1AAB78}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Bicycle" ID="{EB672535-4288-4966-9DE1-F8121B1AAB78}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Bicycle" ID="{54CA55DB-F0A5-4BBD-B795-388DC3C18B87}" ShortID="160736180">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{052D55B4-DA1F-478C-9F1A-F38B5CB52C0A}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Wetasphalt" ID="{89489F74-C3AB-4B1E-B94D-ECBDA1DA844E}" WorkUnitID="{BCF5FCC3-2958-4B85-AEAC-BF3E58083708}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47A26930-8CCD-4957-91AF-168E4D9D6D30}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Terrain" ID="{78DE3445-9725-448A-A69A-488EF927A44C}" WorkUnitID="{BCF5FCC3-2958-4B85-AEAC-BF3E58083708}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Asphalt" ID="{A83FDD0C-453A-4607-ABD0-2ADF5049691E}" ShortID="532628175">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{052D55B4-DA1F-478C-9F1A-F38B5CB52C0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47A26930-8CCD-4957-91AF-168E4D9D6D30}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Normal Speed, Brake, Squeak, Stop SND10812" ID="{072C973F-AE67-4A2E-A213-06EACDB6B98F}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="182.099"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.225098864770459"/>
+										<Property Name="LoopEnd" Type="Real64" Value="7.20792090818363"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.102344148641154"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.35598568358292"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>bicycle\Vehicles, Bicycle, Mountain Bike, Asphalt, Normal Speed, Brake, Squeak, Stop SND10812.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="841497050"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Normal Speed, Brake, Squeak, Stop SND10812" ID="{072C973F-AE67-4A2E-A213-06EACDB6B98F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GrassDirt" ID="{6B4825FE-5EDF-4DB6-B51B-BA646B20606F}" ShortID="620965391">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{052D55B4-DA1F-478C-9F1A-F38B5CB52C0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47A26930-8CCD-4957-91AF-168E4D9D6D30}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="grassdirt" ID="{0651B7DA-AC0A-4AFF-95E0-4C17BB8ABE2A}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="488.738"/>
+										<Property Name="CrossfadeShape" Type="int16" Value="2"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.20704790419162"/>
+										<Property Name="LoopEnd" Type="Real64" Value="27.0673180239521"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.325"/>
+										<Property Name="TrimEnd" Type="Real64" Value="27.4968777777778"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>bicycle\grassdirt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="182779219"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="grassdirt" ID="{0651B7DA-AC0A-4AFF-95E0-4C17BB8ABE2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="gravel" ID="{95EE6413-DDCF-4826-BF5D-2C81F75C4FD8}" ShortID="52511310">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{052D55B4-DA1F-478C-9F1A-F38B5CB52C0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47A26930-8CCD-4957-91AF-168E4D9D6D30}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gravel" ID="{41AEB5CB-FDC6-4665-833D-59572AEFF841}">
+									<Language>SFX</Language>
+									<AudioFile>bicycle\gravel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="568426013"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gravel" ID="{41AEB5CB-FDC6-4665-833D-59572AEFF841}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wetasphalt" ID="{A58050E6-BA3D-4473-8A81-57763EDA561D}" ShortID="1034195934">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{052D55B4-DA1F-478C-9F1A-F38B5CB52C0A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47A26930-8CCD-4957-91AF-168E4D9D6D30}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wetasphalt" ID="{6AE142BF-EC5D-408E-B10F-4F0D25A37759}">
+									<Language>SFX</Language>
+									<AudioFile>bicycle\wetasphalt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="471845378"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wetasphalt" ID="{6AE142BF-EC5D-408E-B10F-4F0D25A37759}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Asphalt" ID="{A83FDD0C-453A-4607-ABD0-2ADF5049691E}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="gravel" ID="{95EE6413-DDCF-4826-BF5D-2C81F75C4FD8}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="wetasphalt" ID="{A58050E6-BA3D-4473-8A81-57763EDA561D}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="GrassDirt" ID="{6B4825FE-5EDF-4DB6-B51B-BA646B20606F}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>1</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Asphalt" ID="{63920145-9400-43CE-B3D8-84483E728866}"/>
+								<ItemList>
+									<ItemRef Name="Asphalt" ID="{A83FDD0C-453A-4607-ABD0-2ADF5049691E}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Wetasphalt" ID="{89489F74-C3AB-4B1E-B94D-ECBDA1DA844E}"/>
+								<ItemList>
+									<ItemRef Name="wetasphalt" ID="{A58050E6-BA3D-4473-8A81-57763EDA561D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Grass" ID="{A8928476-48D7-475A-8380-472CBB9846BC}"/>
+								<ItemList>
+									<ItemRef Name="GrassDirt" ID="{6B4825FE-5EDF-4DB6-B51B-BA646B20606F}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gravel" ID="{E13AC2CC-6220-4342-9734-FD39274CB7FB}"/>
+								<ItemList>
+									<ItemRef Name="gravel" ID="{95EE6413-DDCF-4826-BF5D-2C81F75C4FD8}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

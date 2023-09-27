@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BCF5FCC3-2958-4B85-AEAC-BF3E58083708}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Bicycle" ID="{BCF5FCC3-2958-4B85-AEAC-BF3E58083708}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Terrain" ID="{78DE3445-9725-448A-A69A-488EF927A44C}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{A8928476-48D7-475A-8380-472CBB9846BC}"/>
+						<Switch Name="Gravel" ID="{E13AC2CC-6220-4342-9734-FD39274CB7FB}"/>
+						<Switch Name="Asphalt" ID="{63920145-9400-43CE-B3D8-84483E728866}"/>
+						<Switch Name="Wetasphalt" ID="{89489F74-C3AB-4B1E-B94D-ECBDA1DA844E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
